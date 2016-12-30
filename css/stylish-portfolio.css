@@ -34,7 +34,7 @@ body {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.6);
 }
 
 .btn-dark:hover,
@@ -155,17 +155,32 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/montreal-506130.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+.translation {
+    font-size: 0.8em;
+}
+
+.logo {
+    margin: 2em auto 0;
+    width:  25em;
+}
+
 /* About */
 
 .about {
     padding: 50px 0;
+}
+
+.phone {
+    margin-left: -1em;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 /* Services */
